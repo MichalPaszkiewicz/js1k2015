@@ -13,20 +13,19 @@ k=function(){
 	c.fillStyle="black";
 	c.rect(0,0,w,h);
 	c.fill();
-	for(i in d){
+	for(i in t){
 		c.b();
 		c.fillStyle="yellow";
-		c.fillRect((~~d[i][0]-u)%w,~~d[i][1],2,2);
-		c.closePath();
+		c.fillRect(((~~t[i][0]-u+w)%w),(~~t[i][1]),2,2);
 	}
-	u++;
+	u+=2;
 	for(i=0;i<f.f*9|0;i++)e.push([m+f.f-f.f, z, f.f, 99+f.f*99, f.f*10, f.f]);
 	for(i in e){
 	_=e[i];
 	if(_[2]<0){e.splice(i,1);i--;continue}
 	_[0]-=s;
 	_[1]-=2*_[5]+p;
-	c.beginPath();
+	c.b();
 	c.arc(_[0],_[1],_[4],0,2*Math.PI);
 	q="rgba(2,2,2,3)".replace(/2/g,~~_[3]).replace(/3/g,_[2]);
 	c.fillStyle=q;	
