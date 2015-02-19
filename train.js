@@ -18,7 +18,7 @@ k=function(){
 		c.fillStyle="yellow";
 		c.fillRect(((~~t[i][0]-u+w)%w),(~~t[i][1]),2,2);
 	}
-	u+=2;
+	u=(u+2)%w;
 	for(i=0;i<f.f*9|0;i++)e.push([m+f.f-f.f, z, f.f, 99+f.f*99, f.f*10, f.f]);
 	for(i in e){
 	_=e[i];
