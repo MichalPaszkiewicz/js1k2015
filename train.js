@@ -23,8 +23,8 @@ k=function(){
 	i=5;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*20]);
 	c.b();c.arc(w*2-co*s/3,z/2,50,0,2*pi);f.s="snow";
 	for(i in e){
-		_=e[i];		
-		if(_[2]<0){e.splice(i ,1);i--}
+		while(e[i][2]<0){e.splice(i ,1);i--}
+		_=e[i];	
 		_[0]-=s;
 		_[1]-=2*_[4]+p;
 		c.b();
