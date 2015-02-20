@@ -7,6 +7,7 @@ for(i=0;i<300;i++){
 	t.push([f.f*w,f.f*z]);
 	if(i%10==0)y.push([f.f*w*2,20+f.f*99]);
 }
+c.shadowColor="snow";
 
 k=function(){
 	if(co%3==0)o="hsl("+~~(f.f*360)+",100%,60%)";
@@ -21,7 +22,9 @@ k=function(){
 	}
 	u=(u+s/4)%w;
 	i=5;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*20]);
+	c.shadowBlur=100;
 	c.b();c.arc(w*1.3-co*s/4,z/2,50,0,2*pi);f.s="snow";
+	c.shadowBlur=0;
 	for(i in e){
 		_=e[i];
 		if(_[2]<0){e.splice(i ,1);i--}
