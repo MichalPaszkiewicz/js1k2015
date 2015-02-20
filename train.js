@@ -2,10 +2,10 @@ h=a.height;w=a.width;m=w/2;pi=Math.PI;ms=mc=0;c.b=c.beginPath;c.s=c.stroke;c.lin
 d="0001200";p="0222222";d+=p+p+p+p+p;e=[];z=h-300;t=[];u=0;
 f={get f(){return Math.random()},set s(x){c.fillStyle=x;c.fill()}}
 co=0;l=99+f.f*99;
-s=6;trees=[];
+s=6;y=[];
 for(i=0;i<300;i++){
 	t.push([f.f*w,f.f*z]);
-	if(i%10==0)trees.push([f.f*w*2,10+f.f*100]);
+	if(i%10==0)y.push([f.f*w*2,10+f.f*100]);
 }
 
 k=function(){
@@ -34,8 +34,8 @@ k=function(){
 		_[2]-=0.005;_[3]+=f.f*3|0;
 	};
 	for(i in d){if(~~d[i]){c.b();c.rect(m-i*20, z+20 + p/3, d[i]*7, 15);f.s=o}}	
-	for(i in trees){
-		_=trees[i];
+	for(i in y){
+		_=y[i];
 		c.b();
 		c.rect(((_[0]-3*u+2*w)%(2*w))*_[1]/2,0,10+3*_[1],z+100+_[1]);
 		f.s=j;
