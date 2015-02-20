@@ -7,7 +7,7 @@ for(i=0;i<300;i++){
 	t.push([f.f*w,f.f*z]);
 	if(i%10==0)y.push([f.f*w*2,20+f.f*99]);
 }
-c.shadowColor="snow";
+c.shadowColor=r="snow";
 
 k=function(){
 	if(co%3==0)o="hsl("+~~(f.f*360)+",100%,60%)";
@@ -18,7 +18,7 @@ k=function(){
 	for(i in t){
 		c.b();
 		c.rect(((~~t[i][0]-u+w)%w),(~~t[i][1]),2,2);
-		f.s="snow";
+		f.s=r;
 	}
 	u=(u+s/4)%w;
 	i=5;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*20]);
