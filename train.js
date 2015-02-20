@@ -10,7 +10,7 @@ for(i=0;i<300;i++){
 
 k=function(){
 	if(co%3==0)o="hsl("+~~(f.f*360)+",100%,60%)";
-	p=f.f*3;
+	p=f.f*2;
 	co++;
 	c.rect(0,0,w,h);
 	f.s=j="black";
@@ -33,7 +33,7 @@ k=function(){
 		f.s=q;
 		_[2]-=0.005;_[3]+=f.f*3|0;
 	};
-	for(i in d){if(~~d[i]){c.b();c.rect(m-i*20, z+20 + p/3, d[i]*7, 15);f.s=o}}	
+	for(i in d){if(~~d[i]){c.b();c.rect(m-i*20, z+20 + p/2, d[i]*7, 15);f.s=o}}	
 	for(i in y){
 		_=y[i];
 		c.b();
