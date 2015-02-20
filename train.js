@@ -21,7 +21,7 @@ k=function(){
 	}
 	u=(u+s/3)%w;
 	i=5;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*30]);
-	c.arc(w*2-co*s/3,z/2,50,2,2*pi);
+	c.b();c.arc(w*2-co*s/3,z/2,50,2,2*pi);f.s="snow";
 	for(i in e){
 		_=e[i];		
 		if(_[2]<0){e.splice(i ,1);i--}
