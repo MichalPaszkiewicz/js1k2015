@@ -40,6 +40,6 @@ k=function(){
 		c.rect(((_[0]-3*u+2*w)%(2*w))*_[1]/2,0,10+3*_[1],z+100+_[1]);
 		f.s=j;
 	}	
-	setTimeout(k,99);
+	setTimeout(k,50);
 }
 k();
