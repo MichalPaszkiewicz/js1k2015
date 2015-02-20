@@ -15,7 +15,6 @@ k=function(){
 	co++;
 	c.rect(0,0,w,h);
 	f.s=j="black";
-	c.shadowBlur=10;
 	for(i in t){
 		c.b();
 		c.rect(((~~t[i][0]-u+w)%w),(~~t[i][1]),2,2);
