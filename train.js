@@ -1,5 +1,5 @@
 h=a.height;w=a.width;m=w/2;pi=Math.PI;ms=mc=0;c.b=c.beginPath;c.s=c.stroke;c.lineWidth=5;
-d="0001200";p="02222";d+=p+p+p+p+p;e=[];z=h-300;t=[];u=0;
+d="0001200";p="0222222";d+=p+p+p+p+p;e=[];z=h-300;t=[];u=0;
 f={get f(){return Math.random()},set s(x){c.fillStyle=x;c.fill()}}
 co=0;l=99+f.f*99;
 s=6;trees=[];
