@@ -21,7 +21,7 @@ k=function(){
 		f.s="snow";
 	}
 	u=(u+s/4)%w;
-	i=1;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*20]);
+	i=9;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*20]);
 	c.shadowBlur=100;
 	c.b();c.arc(w*1.1-co*s/4,z/2,50,0,2*pi);f.s="snow";
 	c.shadowBlur=0;
