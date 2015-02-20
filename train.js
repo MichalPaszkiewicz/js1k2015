@@ -33,7 +33,7 @@ k=function(){
 		f.s=q;
 		_[2]-=0.005;_[3]+=f.f*3|0;
 	};
-	for(i in d){if(~~d[i]){c.b();c.rect(m-i*20, z+20 + p/3, d[i]*7, 15);f.s=o}}	
+	for(i in d){if(~~d[i]){c.b();c.rect(m-i*20, z+20 + p, d[i]*7, 15);f.s=o}}	
 	for(i in trees){
 		_=trees[i];
 		c.b();
