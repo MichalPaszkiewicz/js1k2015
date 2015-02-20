@@ -10,7 +10,7 @@ for(i=0;i<300;i++){
 
 k=function(){
 	if(co%3==0)o="hsl("+~~(f.f*360)+",100%,60%)";
-	p=f.f*2;
+	p=f.f*3;
 	co++;
 	c.rect(0,0,w,h);
 	f.s=j="black";
