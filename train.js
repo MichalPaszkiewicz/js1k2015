@@ -20,7 +20,7 @@ k=function(){
 		f.s="snow";
 	}
 	u=(u+s/3)%w;
-	i=5;while(i--)e.push([m,z,f.f,f.f*9,f.f,20+f.f*30]);
+	i=5;while(i--)e.push([m,z,f.f,f.f*6,f.f,20+f.f*30]);
 	for(i in e){
 		_=e[i];		
 		if(_[2]<0){e.splice(i ,1);i--}
@@ -30,7 +30,7 @@ k=function(){
 		c.arc(_[0],_[1],_[3],0,2*pi);
 		q="hsla(0,0%,"+_[5]+"%,"+_[2]+")";
 		f.s=q;
-		_[2]-=0.01;_[3]+=f.f*2|0;
+		_[2]-=0.01;_[3]+=f.f*3|0;
 	};
 	for(i in d){if(~~d[i]){c.rect(m-i*20, z+20, d[i]*7, 15);f.s=o}}	
 	for(i in trees){
