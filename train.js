@@ -20,7 +20,7 @@ k=function(){
 		f.s="snow";
 	}
 	u=(u+s/3)%w;
-	i=5;while(i--)e.push([m,z,f.f,f.f*6,f.f,20+f.f*30]);
+	i=5;while(i--)e.push([m,z,0.5*f.f,f.f*6,f.f,20+f.f*30]);
 	c.arc(w*3-u,z/2,2,2*pi);
 	for(i in e){
 		_=e[i];		
