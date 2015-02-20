@@ -43,6 +43,6 @@ k=function(){
 		c.rect(((_[0]-5*u+2*w)%(2*w))*_[1]/2,0,3*_[1],z+100+_[1]);
 		f.s=j;
 	}	
-	setTimeout(k,10);
+	setTimeout(k,20);
 }
 k();
