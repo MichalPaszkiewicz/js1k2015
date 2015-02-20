@@ -2,7 +2,7 @@ h=a.height;w=a.width;m=w/2;pi=Math.PI;ms=mc=0;c.b=c.beginPath;c.s=c.stroke;c.lin
 d="0001200";p="0222222";d+=p+p+p+p+p;e=[];z=h-300;t=[];u=0;
 f={get f(){return Math.random()},set s(x){c.fillStyle=x;c.fill()}}
 co=0;l=99+f.f*99;
-s=6;y=[];
+s=4;y=[];
 for(i=0;i<300;i++){
 	t.push([f.f*w,f.f*z]);
 	if(i%10==0)y.push([f.f*w*2,10+f.f*100]);
@@ -19,7 +19,7 @@ k=function(){
 		c.rect(((~~t[i][0]-u+w)%w),(~~t[i][1]),2,2);
 		f.s="snow";
 	}
-	u=(u+s/3)%w;
+	u=(u+s/2)%w;
 	i=5;while(i--)e.push([m,z,0.6*f.f,f.f*8,f.f,10+f.f*20]);
 	c.b();c.arc(w*1.3-co*s/3,z/2,50,0,2*pi);f.s="snow";
 	for(i in e){
